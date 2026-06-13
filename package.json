@@ -1,0 +1,28 @@
+{
+  "name": "okta-auth-demo",
+  "version": "1.0.0",
+  "description": "Backend API demonstrating Okta authentication and authorization",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "get-token": "node scripts/get-token.js",
+    "lint": "eslint ."
+  },
+  "keywords": ["okta", "authentication", "authorization", "express", "jwt"],
+  "license": "ISC",
+  "dependencies": {
+    "@okta/okta-auth-js": "^8.0.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "express-jwt": "^8.5.1",
+    "helmet": "^6.0.0",
+    "jwks-rsa": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "nodemon": "^3.0.1"
+  }
+}

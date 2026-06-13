@@ -1,0 +1,38 @@
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "refreshToken": "eyJhbGciOiJIUzI1NiJ9...",
+  "tokenType": "Bearer",
+  "expiresIn": 3600,
+  "roles": [
+    "ROLE_USER",
+    "ROLE_ADMIN"
+  ]
+}
+
+{
+  "role": "ROLE_USER",
+  "permissions": [
+    {
+      "resource": "ACCOUNT",
+      "actions": [
+        "READ"
+      ]
+    },
+    {
+      "resource": "PROFILE",
+      "actions": [
+        "READ",
+        "UPDATE"
+      ]
+    },
+    {
+      "resource": "TRANSACTION",
+      "actions": [
+        "READ",
+        "CREATE"
+      ]
+    }
+  ]
+}
+
+
